@@ -1,6 +1,6 @@
-# Quote
+# Quotes
+An Angular Js App that allows users to create and delete quotes. It also allows users to vote on posted quotes, and see the number of votes that quotes have.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Development server
 
@@ -14,6 +14,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Built With
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -21,6 +26,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Licence
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 
 ## Further help
 
