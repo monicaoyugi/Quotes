@@ -38,7 +38,7 @@ This project is licensed under the terms of the MIT license.
 
 [LICENSE](LICENSE)
 
-__Copyright (c) {2019}  Monica Oyugi.__
+__Copyright (c) {2020}  Monica Oyugi.__
 
 
 

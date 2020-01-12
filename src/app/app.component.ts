@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
+import { Quotes} from './quotes';
+import { Quote } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Quote';
-  Quote:string[];
 
-  constructor(){
-    this.Quote =['create a quote', 'Delete a quote']
-  }
+export class AppComponent {
+ 
+  constructor() {}
 
 
 }
