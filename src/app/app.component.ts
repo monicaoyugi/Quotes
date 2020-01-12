@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Quote';
-  Quote:string[];
+  Quote: string[];
 
-  constructor(){
-    this.Quote =['create a quote', 'Delete a quote']
+  constructor() {
+    this.Quote = ['create a quote', 'Delete a quote'];
   }
 
 
