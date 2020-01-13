@@ -1,0 +1,22 @@
+<!-- <p>quote-main works!</p> -->
+<div class="row">
+    <div  id="col1" class="col-md-6 col-sm-12">
+        <div class="card mt-3" *ngFor='let quote of quotes;let i = index'>
+            <div class="card-header text-center bg-info text-white">Posted by: {{quote.name}}</div>
+            <div appHighestvote *ngIf="mostLiked()===quote.upvote && quote.upvote > 0" class="card-body">
+                {{quote.quote}}
+            </div>
+            <div  *ngIf="mostLiked()!==quote.upvote || quote.upvote===0" class="card-body">
+                    {{quote.quote}}
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-sm btn-outline-info mr-4" (click)='seeDetails(i)'>more</button>
+                <app-quote-detail *ngIf='quote.viewDetails' [quote]='quote' (isDone)='purgeQuote($event,i)' (voteIncreese)='addVote($event,i)' (voteDecrease)='lessVote($event,i)'>
+                </app-quote-detail>
+            </div>
+        </div>
+    </div>
+    <div id="col2" class="col-md-6">
+        <app-quote-form (addQuote)="addNewQuote($event)" ></app-quote-form>
+    </div>
+</div>

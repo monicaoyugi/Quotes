@@ -1,0 +1,10 @@
+.card {
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+#col2 {
+  background-color:teal;
+  max-height: 500px;
+  box-shadow: black 5px 3px 5px 3px;
+  margin-top: 15px;
+}
