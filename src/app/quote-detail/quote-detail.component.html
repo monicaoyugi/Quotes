@@ -1,0 +1,5 @@
+<small>By:{{quote.author}}</small>
+<span id="up" ><i class="fas fa-thumbs-up fa-col m-2 text-success fa-1x" (click)='fnIncrease(true)'></i>{{quote.upvote}}</span>
+<span id="down" (click)=fnDecrease(true)><i class="fas fa-thumbs-down m-3 fa-1x"></i>{{quote.downvote}}</span>
+<span class="ml-2">{{quote.elapse|dateCount}}</span>
+<span id="delete" (click)= 'quoteDan(true)'><i class="far fa-trash-alt fa-2x text-danger float-right"></i></span>

@@ -1,0 +1,6 @@
+#delete:hover{
+    cursor: pointer;
+}
+#up,#down{
+    cursor: pointer;
+}
