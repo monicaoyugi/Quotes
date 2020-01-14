@@ -1,0 +1,13 @@
+
+#home {
+ 
+background-color: rgb(32, 29, 29) ;
+opacity: 0.6;
+height: 60px;
+}
+#text{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
